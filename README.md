@@ -1,7 +1,7 @@
 TetronimoEngine
 =========
 
-TetrisEngine is a tetronimo engine written in Objective-C.
+TetronimoEngine is a tetronimo engine written in Objective-C.
 
 License
 -
