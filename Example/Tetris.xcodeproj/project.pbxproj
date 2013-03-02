@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA16B1BA16E019BA002D5958 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA16B1B916E019BA002D5958 /* Cocoa.framework */; };
+		AA16B1C416E019BA002D5958 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA16B1C216E019BA002D5958 /* InfoPlist.strings */; };
+		AA16B1C616E019BA002D5958 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA16B1C516E019BA002D5958 /* main.m */; };
+		AA16B1CA16E019BA002D5958 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AA16B1C816E019BA002D5958 /* Credits.rtf */; };
+		AA16B1CD16E019BA002D5958 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA16B1CC16E019BA002D5958 /* AppDelegate.m */; };
+		AA16B1D016E019BA002D5958 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA16B1CE16E019BA002D5958 /* MainMenu.xib */; };
+		AA16B1D816E01BA6002D5958 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA16B1D716E01BA6002D5958 /* GameView.m */; };
+		AA16B1DA16E01EA1002D5958 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA16B1D916E01EA1002D5958 /* OpenGL.framework */; };
+		AA16B1DC16E01EA8002D5958 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA16B1DB16E01EA8002D5958 /* QuartzCore.framework */; };
+		AA16B1DE16E01EAC002D5958 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA16B1DD16E01EAC002D5958 /* Quartz.framework */; };
+		AA57212316E18596004A3BF0 /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA57212216E18596004A3BF0 /* NSMutableArray+QueueAdditions.m */; };
+		AADCCE8516E19B5F00FCF644 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = AADCCE7F16E19B5F00FCF644 /* Board.m */; };
+		AADCCE8616E19B5F00FCF644 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = AADCCE8116E19B5F00FCF644 /* Game.m */; };
+		AADCCE8716E19B5F00FCF644 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = AADCCE8216E19B5F00FCF644 /* LICENSE.txt */; };
+		AADCCE8816E19B5F00FCF644 /* Pieces.m in Sources */ = {isa = PBXBuildFile; fileRef = AADCCE8416E19B5F00FCF644 /* Pieces.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA16B1B616E019BA002D5958 /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA16B1B916E019BA002D5958 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AA16B1BC16E019BA002D5958 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AA16B1BD16E019BA002D5958 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA16B1BE16E019BA002D5958 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA16B1C116E019BA002D5958 /* Tetris-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tetris-Info.plist"; sourceTree = "<group>"; };
+		AA16B1C316E019BA002D5958 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA16B1C516E019BA002D5958 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA16B1C716E019BA002D5958 /* Tetris-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tetris-Prefix.pch"; sourceTree = "<group>"; };
+		AA16B1C916E019BA002D5958 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AA16B1CB16E019BA002D5958 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA16B1CC16E019BA002D5958 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA16B1CF16E019BA002D5958 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AA16B1D616E01BA6002D5958 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		AA16B1D716E01BA6002D5958 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		AA16B1D916E01EA1002D5958 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		AA16B1DB16E01EA8002D5958 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AA16B1DD16E01EAC002D5958 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		AA57212116E18596004A3BF0 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		AA57212216E18596004A3BF0 /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		AADCCE7E16E19B5F00FCF644 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		AADCCE7F16E19B5F00FCF644 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		AADCCE8016E19B5F00FCF644 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		AADCCE8116E19B5F00FCF644 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		AADCCE8216E19B5F00FCF644 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		AADCCE8316E19B5F00FCF644 /* Pieces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pieces.h; sourceTree = "<group>"; };
+		AADCCE8416E19B5F00FCF644 /* Pieces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pieces.m; sourceTree = "<group>"; };
+		AAEA2AB416E02ADF00B222C3 /* CarbonKeyEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarbonKeyEvents.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA16B1B316E019BA002D5958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA16B1DE16E01EAC002D5958 /* Quartz.framework in Frameworks */,
+				AA16B1DC16E01EA8002D5958 /* QuartzCore.framework in Frameworks */,
+				AA16B1DA16E01EA1002D5958 /* OpenGL.framework in Frameworks */,
+				AA16B1BA16E019BA002D5958 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA16B1AD16E019BA002D5958 = {
+			isa = PBXGroup;
+			children = (
+				AA16B1BF16E019BA002D5958 /* Tetris */,
+				AA16B1B816E019BA002D5958 /* Frameworks */,
+				AA16B1B716E019BA002D5958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA16B1B716E019BA002D5958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA16B1B616E019BA002D5958 /* Tetris.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA16B1B816E019BA002D5958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA16B1DD16E01EAC002D5958 /* Quartz.framework */,
+				AA16B1DB16E01EA8002D5958 /* QuartzCore.framework */,
+				AA16B1D916E01EA1002D5958 /* OpenGL.framework */,
+				AA16B1B916E019BA002D5958 /* Cocoa.framework */,
+				AA16B1BB16E019BA002D5958 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA16B1BB16E019BA002D5958 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA16B1BC16E019BA002D5958 /* AppKit.framework */,
+				AA16B1BD16E019BA002D5958 /* CoreData.framework */,
+				AA16B1BE16E019BA002D5958 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AA16B1BF16E019BA002D5958 /* Tetris */ = {
+			isa = PBXGroup;
+			children = (
+				AA16B1CB16E019BA002D5958 /* AppDelegate.h */,
+				AA16B1CC16E019BA002D5958 /* AppDelegate.m */,
+				AA16B1CE16E019BA002D5958 /* MainMenu.xib */,
+				AA16B1D616E01BA6002D5958 /* GameView.h */,
+				AA16B1D716E01BA6002D5958 /* GameView.m */,
+				AA57212116E18596004A3BF0 /* NSMutableArray+QueueAdditions.h */,
+				AA57212216E18596004A3BF0 /* NSMutableArray+QueueAdditions.m */,
+				AAEA2AB416E02ADF00B222C3 /* CarbonKeyEvents.h */,
+				AADCCE7D16E19B5F00FCF644 /* TetrisEngine */,
+				AA16B1C016E019BA002D5958 /* Supporting Files */,
+			);
+			path = Tetris;
+			sourceTree = "<group>";
+		};
+		AA16B1C016E019BA002D5958 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA16B1C116E019BA002D5958 /* Tetris-Info.plist */,
+				AA16B1C216E019BA002D5958 /* InfoPlist.strings */,
+				AA16B1C516E019BA002D5958 /* main.m */,
+				AA16B1C716E019BA002D5958 /* Tetris-Prefix.pch */,
+				AA16B1C816E019BA002D5958 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AADCCE7D16E19B5F00FCF644 /* TetrisEngine */ = {
+			isa = PBXGroup;
+			children = (
+				AADCCE7E16E19B5F00FCF644 /* Board.h */,
+				AADCCE7F16E19B5F00FCF644 /* Board.m */,
+				AADCCE8016E19B5F00FCF644 /* Game.h */,
+				AADCCE8116E19B5F00FCF644 /* Game.m */,
+				AADCCE8216E19B5F00FCF644 /* LICENSE.txt */,
+				AADCCE8316E19B5F00FCF644 /* Pieces.h */,
+				AADCCE8416E19B5F00FCF644 /* Pieces.m */,
+			);
+			name = TetrisEngine;
+			path = ../../TetrisEngine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA16B1B516E019BA002D5958 /* Tetris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA16B1D316E019BA002D5958 /* Build configuration list for PBXNativeTarget "Tetris" */;
+			buildPhases = (
+				AA16B1B216E019BA002D5958 /* Sources */,
+				AA16B1B316E019BA002D5958 /* Frameworks */,
+				AA16B1B416E019BA002D5958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tetris;
+			productName = Tetris;
+			productReference = AA16B1B616E019BA002D5958 /* Tetris.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA16B1AE16E019BA002D5958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Steve;
+			};
+			buildConfigurationList = AA16B1B116E019BA002D5958 /* Build configuration list for PBXProject "Tetris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA16B1AD16E019BA002D5958;
+			productRefGroup = AA16B1B716E019BA002D5958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA16B1B516E019BA002D5958 /* Tetris */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA16B1B416E019BA002D5958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA16B1C416E019BA002D5958 /* InfoPlist.strings in Resources */,
+				AA16B1CA16E019BA002D5958 /* Credits.rtf in Resources */,
+				AA16B1D016E019BA002D5958 /* MainMenu.xib in Resources */,
+				AADCCE8716E19B5F00FCF644 /* LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA16B1B216E019BA002D5958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA16B1C616E019BA002D5958 /* main.m in Sources */,
+				AA16B1CD16E019BA002D5958 /* AppDelegate.m in Sources */,
+				AA16B1D816E01BA6002D5958 /* GameView.m in Sources */,
+				AA57212316E18596004A3BF0 /* NSMutableArray+QueueAdditions.m in Sources */,
+				AADCCE8516E19B5F00FCF644 /* Board.m in Sources */,
+				AADCCE8616E19B5F00FCF644 /* Game.m in Sources */,
+				AADCCE8816E19B5F00FCF644 /* Pieces.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA16B1C216E019BA002D5958 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA16B1C316E019BA002D5958 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA16B1C816E019BA002D5958 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA16B1C916E019BA002D5958 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AA16B1CE16E019BA002D5958 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA16B1CF16E019BA002D5958 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA16B1D116E019BA002D5958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA16B1D216E019BA002D5958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA16B1D416E019BA002D5958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tetris/Tetris-Prefix.pch";
+				INFOPLIST_FILE = "Tetris/Tetris-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA16B1D516E019BA002D5958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tetris/Tetris-Prefix.pch";
+				INFOPLIST_FILE = "Tetris/Tetris-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA16B1B116E019BA002D5958 /* Build configuration list for PBXProject "Tetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA16B1D116E019BA002D5958 /* Debug */,
+				AA16B1D216E019BA002D5958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA16B1D316E019BA002D5958 /* Build configuration list for PBXNativeTarget "Tetris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA16B1D416E019BA002D5958 /* Debug */,
+				AA16B1D516E019BA002D5958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA16B1AE16E019BA002D5958 /* Project object */;
+}
