@@ -3,6 +3,8 @@ TetrominoEngine
 
 TetrominoEngine is a tetromino engine written in Objective-C.
 
+![Example Project Image](http://sjtrny.com/storage/post-images/Tetris.png)
+
 License
 -
 TetrominoEngine is licensed under the terms of the [WTFPL]. Please see the [LICENSE] file for full details.
