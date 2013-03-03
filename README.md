@@ -11,9 +11,10 @@ Credits
 -
 Written by [Stephen Tierney]
 
-This work is based on a [tutorial] from Javier López.
+This work is based on a [tutorial] from [Javier López].
 
   [tutorial]: http://javilop.com/gamedev/tetris-tutorial-in-c-platform-independent-focused-in-game-logic-for-beginners/
   [WTFPL]: http://www.wtfpl.net/about/
   [LICENSE]: https://github.com/sjtrny/TetronimoEngine/blob/master/LICENSE.txt
   [Stephen Tierney]: http://sjtrny.com/
+  [Javier López]: http://javilop.com
