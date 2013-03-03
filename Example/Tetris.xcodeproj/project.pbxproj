@@ -15,7 +15,6 @@
 		AA16B1D016E019BA002D5958 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA16B1CE16E019BA002D5958 /* MainMenu.xib */; };
 		AA16B1D816E01BA6002D5958 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA16B1D716E01BA6002D5958 /* GameView.m */; };
 		AA16B1DA16E01EA1002D5958 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA16B1D916E01EA1002D5958 /* OpenGL.framework */; };
-		AA16B1DC16E01EA8002D5958 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA16B1DB16E01EA8002D5958 /* QuartzCore.framework */; };
 		AA16B1DE16E01EAC002D5958 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA16B1DD16E01EAC002D5958 /* Quartz.framework */; };
 		AA45D3BF16E2DC740081EDFD /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45D3B916E2DC740081EDFD /* Board.m */; };
 		AA45D3C016E2DC740081EDFD /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45D3BB16E2DC740081EDFD /* Game.m */; };
@@ -41,7 +40,6 @@
 		AA16B1D616E01BA6002D5958 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
 		AA16B1D716E01BA6002D5958 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
 		AA16B1D916E01EA1002D5958 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		AA16B1DB16E01EA8002D5958 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AA16B1DD16E01EAC002D5958 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		AA45D3B816E2DC740081EDFD /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
 		AA45D3B916E2DC740081EDFD /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA16B1DE16E01EAC002D5958 /* Quartz.framework in Frameworks */,
-				AA16B1DC16E01EA8002D5958 /* QuartzCore.framework in Frameworks */,
 				AA16B1DA16E01EA1002D5958 /* OpenGL.framework in Frameworks */,
 				AA16B1BA16E019BA002D5958 /* Cocoa.framework in Frameworks */,
 			);
@@ -91,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				AA16B1DD16E01EAC002D5958 /* Quartz.framework */,
-				AA16B1DB16E01EA8002D5958 /* QuartzCore.framework */,
 				AA16B1D916E01EA1002D5958 /* OpenGL.framework */,
 				AA16B1B916E019BA002D5958 /* Cocoa.framework */,
 				AA16B1BB16E019BA002D5958 /* Other Frameworks */,
