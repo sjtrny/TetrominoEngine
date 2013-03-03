@@ -1,11 +1,11 @@
-TetronimoEngine
+TetrominoEngine
 =========
 
-TetronimoEngine is a tetronimo engine written in Objective-C.
+TetrominoEngine is a tetromino engine written in Objective-C.
 
 License
 -
-TetronimoEngine is licensed under the terms of the [WTFPL]. Please see the [LICENSE] file for full details.
+TetrominoEngine is licensed under the terms of the [WTFPL]. Please see the [LICENSE] file for full details.
 
 Credits
 -

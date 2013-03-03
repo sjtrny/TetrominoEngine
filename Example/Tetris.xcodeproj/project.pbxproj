@@ -17,11 +17,11 @@
 		AA16B1DA16E01EA1002D5958 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA16B1D916E01EA1002D5958 /* OpenGL.framework */; };
 		AA16B1DC16E01EA8002D5958 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA16B1DB16E01EA8002D5958 /* QuartzCore.framework */; };
 		AA16B1DE16E01EAC002D5958 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA16B1DD16E01EAC002D5958 /* Quartz.framework */; };
+		AA45D3BF16E2DC740081EDFD /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45D3B916E2DC740081EDFD /* Board.m */; };
+		AA45D3C016E2DC740081EDFD /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45D3BB16E2DC740081EDFD /* Game.m */; };
+		AA45D3C116E2DC740081EDFD /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA45D3BC16E2DC740081EDFD /* LICENSE.txt */; };
+		AA45D3C216E2DC740081EDFD /* Pieces.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45D3BE16E2DC740081EDFD /* Pieces.m */; };
 		AA57212316E18596004A3BF0 /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA57212216E18596004A3BF0 /* NSMutableArray+QueueAdditions.m */; };
-		AADCCE8516E19B5F00FCF644 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = AADCCE7F16E19B5F00FCF644 /* Board.m */; };
-		AADCCE8616E19B5F00FCF644 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = AADCCE8116E19B5F00FCF644 /* Game.m */; };
-		AADCCE8716E19B5F00FCF644 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = AADCCE8216E19B5F00FCF644 /* LICENSE.txt */; };
-		AADCCE8816E19B5F00FCF644 /* Pieces.m in Sources */ = {isa = PBXBuildFile; fileRef = AADCCE8416E19B5F00FCF644 /* Pieces.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,15 +43,15 @@
 		AA16B1D916E01EA1002D5958 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		AA16B1DB16E01EA8002D5958 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AA16B1DD16E01EAC002D5958 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		AA45D3B816E2DC740081EDFD /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		AA45D3B916E2DC740081EDFD /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		AA45D3BA16E2DC740081EDFD /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		AA45D3BB16E2DC740081EDFD /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		AA45D3BC16E2DC740081EDFD /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		AA45D3BD16E2DC740081EDFD /* Pieces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pieces.h; sourceTree = "<group>"; };
+		AA45D3BE16E2DC740081EDFD /* Pieces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pieces.m; sourceTree = "<group>"; };
 		AA57212116E18596004A3BF0 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
 		AA57212216E18596004A3BF0 /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
-		AADCCE7E16E19B5F00FCF644 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
-		AADCCE7F16E19B5F00FCF644 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
-		AADCCE8016E19B5F00FCF644 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
-		AADCCE8116E19B5F00FCF644 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
-		AADCCE8216E19B5F00FCF644 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		AADCCE8316E19B5F00FCF644 /* Pieces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pieces.h; sourceTree = "<group>"; };
-		AADCCE8416E19B5F00FCF644 /* Pieces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pieces.m; sourceTree = "<group>"; };
 		AAEA2AB416E02ADF00B222C3 /* CarbonKeyEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarbonKeyEvents.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +120,7 @@
 				AA57212116E18596004A3BF0 /* NSMutableArray+QueueAdditions.h */,
 				AA57212216E18596004A3BF0 /* NSMutableArray+QueueAdditions.m */,
 				AAEA2AB416E02ADF00B222C3 /* CarbonKeyEvents.h */,
-				AADCCE7D16E19B5F00FCF644 /* TetrisEngine */,
+				AA45D3B716E2DC740081EDFD /* TetrominoEngine */,
 				AA16B1C016E019BA002D5958 /* Supporting Files */,
 			);
 			path = Tetris;
@@ -138,19 +138,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AADCCE7D16E19B5F00FCF644 /* TetrisEngine */ = {
+		AA45D3B716E2DC740081EDFD /* TetrominoEngine */ = {
 			isa = PBXGroup;
 			children = (
-				AADCCE7E16E19B5F00FCF644 /* Board.h */,
-				AADCCE7F16E19B5F00FCF644 /* Board.m */,
-				AADCCE8016E19B5F00FCF644 /* Game.h */,
-				AADCCE8116E19B5F00FCF644 /* Game.m */,
-				AADCCE8216E19B5F00FCF644 /* LICENSE.txt */,
-				AADCCE8316E19B5F00FCF644 /* Pieces.h */,
-				AADCCE8416E19B5F00FCF644 /* Pieces.m */,
+				AA45D3B816E2DC740081EDFD /* Board.h */,
+				AA45D3B916E2DC740081EDFD /* Board.m */,
+				AA45D3BA16E2DC740081EDFD /* Game.h */,
+				AA45D3BB16E2DC740081EDFD /* Game.m */,
+				AA45D3BC16E2DC740081EDFD /* LICENSE.txt */,
+				AA45D3BD16E2DC740081EDFD /* Pieces.h */,
+				AA45D3BE16E2DC740081EDFD /* Pieces.m */,
 			);
-			name = TetrisEngine;
-			path = ../../TetrisEngine;
+			name = TetrominoEngine;
+			path = ../../TetrominoEngine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +207,7 @@
 				AA16B1C416E019BA002D5958 /* InfoPlist.strings in Resources */,
 				AA16B1CA16E019BA002D5958 /* Credits.rtf in Resources */,
 				AA16B1D016E019BA002D5958 /* MainMenu.xib in Resources */,
-				AADCCE8716E19B5F00FCF644 /* LICENSE.txt in Resources */,
+				AA45D3C116E2DC740081EDFD /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +222,9 @@
 				AA16B1CD16E019BA002D5958 /* AppDelegate.m in Sources */,
 				AA16B1D816E01BA6002D5958 /* GameView.m in Sources */,
 				AA57212316E18596004A3BF0 /* NSMutableArray+QueueAdditions.m in Sources */,
-				AADCCE8516E19B5F00FCF644 /* Board.m in Sources */,
-				AADCCE8616E19B5F00FCF644 /* Game.m in Sources */,
-				AADCCE8816E19B5F00FCF644 /* Pieces.m in Sources */,
+				AA45D3BF16E2DC740081EDFD /* Board.m in Sources */,
+				AA45D3C016E2DC740081EDFD /* Game.m in Sources */,
+				AA45D3C216E2DC740081EDFD /* Pieces.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
